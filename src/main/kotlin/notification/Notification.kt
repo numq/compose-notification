@@ -56,8 +56,6 @@ fun Notification(
                         .join()
 
                     setNotification(null)
-
-                    setDelayJob(null)
                 }
             }
         }
