@@ -6,6 +6,6 @@ import notification.NotificationItem
 
 interface NotificationQueue {
     val notifications: Channel<NotificationItem>
-    fun push(message: String, icon: ImageVector? = null)
+    fun push(message: String, label: ImageVector? = null)
     fun close()
 }

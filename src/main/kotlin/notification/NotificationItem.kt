@@ -1,3 +1,5 @@
 package notification
 
-data class NotificationItem(val message: String)
+import androidx.compose.ui.graphics.vector.ImageVector
+
+data class NotificationItem(val message: String, val label: ImageVector?)
